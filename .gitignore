@@ -8,8 +8,9 @@ __pycache__/
 .venv/
 venv/
 
-# Chroma 本地持久化数据（每台机器自己生成）
+# Chroma 本地持久化数据（每台机器自己生成；各课可能用不同目录名）
 chroma_db/
+chroma_db_*/
 
 # 系统/编辑器
 .DS_Store
