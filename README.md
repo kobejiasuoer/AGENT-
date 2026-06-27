@@ -14,16 +14,16 @@
 | # | 课程 | 你会学到 |
 |---|------|----------|
 | 01 | [先跑通：你的第一个 RAG](lessons/01_getting_started/) | 跑通完整流水线，建立全局认知 |
-| 02 | 深入 Embedding | 向量如何表示语义、余弦相似度 |
-| 03 | 向量检索 | Top-K、ANN、Chroma 用法 |
-| 04 | 文档切块 (Chunking) | chunk_size/overlap 的取舍 |
-| 05 | Prompt 工程 | 防幻觉提示词、引用溯源 |
-| 06 | 进阶检索 | 混合检索 + Rerank 重排序 |
-| 07 | Query 改写 | HyDE、多查询展开 |
-| 08 | RAG 评估 | RAGAS 三维指标 |
-| 09 | 工程化 | 流式、缓存、多文档 |
+| 02 | [深入 Embedding](lessons/02_embedding/) | 向量如何表示语义、余弦相似度 |
+| 03 | [向量检索](lessons/03_retrieval/) | Top-K、ANN、Chroma 用法 |
+| 04 | [文档切块 (Chunking)](lessons/04_chunking/) | chunk_size/overlap 的取舍 |
+| 05 | [Prompt 工程](lessons/05_prompt/) | 防幻觉提示词、引用溯源 |
+| 06 | [进阶检索](lessons/06_advanced_retrieval/) | 混合检索 + Rerank 重排序 |
+| 07 | [Query 改写](lessons/07_query_rewrite/) | HyDE、多查询展开 |
+| 08 | [RAG 评估](lessons/08_evaluation/) | RAGAS 三维指标 |
+| 09 | [工程化：毕业作品](lessons/09_engineering/) | 交互式问答助手，集成全部技术 |
 
-> 目前已完成 **Lesson 01**。后续课程会根据你的反馈逐课制作。
+> 目前已完成全部 **9 节课** 🎉。每课都包含原理讲解 + 可运行代码 + 练习。
 
 ---
 
