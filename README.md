@@ -7,7 +7,21 @@
 
 ---
 
-## 🗺️ 学习路径（共 9 节课）
+## 🗺️ 三门课程总览
+
+本工作区包含**三门递进课程**，建议按顺序学：
+
+| 课程 | 内容 | 状态 |
+|------|------|------|
+| 📘 [RAG 手写课程](lessons/) | 从零系统理解 RAG 原理（embedding→检索→切块→prompt→混合检索→改写→评估→工程化）| ✅ 9/9 完成 |
+| 🤖 [Agent 手写课程](agent-lessons/) | 从零系统理解 AI Agent 原理（Function Calling→ReAct→工具设计→记忆→规划→Agentic RAG→多智能体→毕业项目）| ✅ 9/9 完成 |
+| 🔧 [框架进阶课程](framework-lessons/) | LangChain + LangGraph 工程化（把手写原理翻译成框架，每课做"手写版 vs 框架版"对比）| 🚧 1/9 进行中 |
+
+> **学习路径**：先学 RAG（懂检索原理）→ 再学 Agent（懂自主决策）→ 最后学框架进阶（工程化落地）。
+
+---
+
+## 📚 课程一：RAG 渐进式学习（共 9 节课）
 
 按 RAG 真实数据流顺序，每课加一个环节：
 
@@ -23,7 +37,7 @@
 | 08 | [RAG 评估](lessons/08_evaluation/) | RAGAS 三维指标 |
 | 09 | [工程化：毕业作品](lessons/09_engineering/) | 交互式问答助手，集成全部技术 |
 
-> 目前已完成全部 **9 节课** 🎉。每课都包含原理讲解 + 可运行代码 + 练习。
+> 已完成全部 **9 节课** 🎉。每课都包含原理讲解 + 可运行代码 + 练习。
 
 ---
 
@@ -55,13 +69,15 @@ python lessons/01_getting_started/code.py
 
 ```
 RAG-test/
-├── README.md                  ← 你在这里：课程总览
-├── requirements.txt           ← 依赖
+├── README.md                  ← 你在这里：三门课程总览
+├── requirements.txt           ← 依赖（三门课统一）
 ├── .env.example               ← API Key 配置模板
-├── data/sample_docs/          ← 练习用的示例文档
-├── lessons/                   ← 各课时（每课一个目录）
-│   └── 01_getting_started/
-│       ├── README.md          ← 原理讲解
+├── data/sample_docs/          ← 练习用的示例文档（三门课共用）
+├── lessons/                   ← 课程一：RAG 手写（9 课，已完成）
+├── agent-lessons/             ← 课程二：Agent 手写（9 课，已完成）
+├── framework-lessons/         ← 课程三：框架进阶（进行中）
+│   └── 01_lcel_overview/
+│       ├── README.md          ← 原理 + 映射对比
 │       ├── code.py            ← 可运行代码
 │       └── exercise.md        ← 练习
 └── docs/                      ← 设计文档与实现计划

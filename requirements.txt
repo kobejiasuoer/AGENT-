@@ -15,3 +15,13 @@ rank-bm25>=0.2.2  # BM25 关键词检索（混合检索的另一半）
 
 # ---- Agent L09 起新增 ----
 duckduckgo-search>=6.0.0  # 免费联网搜索（毕业项目用，无需 API key）
+
+# ---- 框架进阶课程 起新增（framework-lessons/）----
+# LangChain 1.x：LCEL 管道、Prompt、OutputParser（L01-L05）
+langchain>=0.3.0
+langchain-core>=0.3.0          # Runnable 接口、LCEL 基类（抽象根基）
+langchain-community>=0.3.0     # ChatZhipuAI / ZhipuAIEmbeddings（⚠️ 正被 sunset，见 L01 README）
+langchain-chroma>=0.1.0        # Chroma 独立集成包（新写法）
+# LangGraph：状态化 Agent 编排（L06-L09）
+langgraph>=0.2.0
+pydantic>=2.0                  # 结构化输出（L02 起用 PydanticOutputParser）
